@@ -11,5 +11,6 @@ export default (
         <Route path='/about' component={About}/>
         <Route path='/classlist/:class' component={ClassList}/>
         <Route path='/student/:id' component={Student}/>
+        
     </Switch>
 )
